@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+  - name: copy file
+    copy:
+      src: /opt/semaphore/test_file
+      dest: /opt/
