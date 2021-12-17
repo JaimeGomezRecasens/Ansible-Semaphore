@@ -6,4 +6,5 @@
   - name: copy file
     copy:
       src: /opt/semaphore/test_file
-      dest: /opt/
+      dest: /opt/test_file
+      remote_src: no
