@@ -1,11 +1,11 @@
 ---
 - hosts: all
   become: yes
-  become_user: jgomez
+  #become_user: jgomez
 
   tasks:
   - name: copy file
     copy:
       src: /opt/semaphore/files/test_file
-      dest: /home/jgomez/test_file
+      dest: /opt/test_file
       remote_src: no
