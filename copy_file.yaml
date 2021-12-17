@@ -5,6 +5,6 @@
   tasks:
   - name: copy file
     copy:
-      src: /opt/semaphore/test_file
+      src: /opt/semaphore/files/test_file
       dest: /opt/test_file
       remote_src: no
