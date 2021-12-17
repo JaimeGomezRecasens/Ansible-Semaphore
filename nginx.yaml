@@ -16,7 +16,7 @@
 
   - name: Insert Index Page
     template:
-      src: index.html
+      src: /opt/semaphore/files/index.html
       dest: /usr/share/nginx/html/index.html
 
   - name: Start NGiNX
